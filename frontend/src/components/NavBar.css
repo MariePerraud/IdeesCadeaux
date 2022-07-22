@@ -1,0 +1,45 @@
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  color: white;
+  background-color: var(--red-color);
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar h1 {
+  margin: 1rem 0;
+}
+
+.NavBar h1:hover {
+  cursor: default;
+}
+
+.NavBar p {
+  margin: 0 2rem 1rem;
+}
+
+.NavBar a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar a:hover {
+  color: var(--blue-color);
+  font-weight: 900;
+}
+
+.NavBarLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

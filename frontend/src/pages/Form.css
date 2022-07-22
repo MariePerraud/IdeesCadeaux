@@ -1,0 +1,84 @@
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  width: 90%;
+  border: none;
+  border-radius: 20px;
+  box-shadow: grey 3px 3px 5px;
+  background-color: var(--blue-color);
+}
+
+.FormContainer label {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.FormContainer input {
+  margin-right: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: none;
+  box-shadow: grey 2px 2px 5px;
+}
+
+.FormContainer input:focus {
+  outline-color: var(--red-color);
+  box-shadow: none;
+}
+
+.FormLabel {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.FormLabel label {
+  font-weight: 600;
+}
+
+.FormButton {
+  margin-top: 2rem;
+  background-color: var(--red-color);
+  color: white;
+  font-weight: 600;
+  padding: 1rem 0;
+  width: 10rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: grey 2px 2px 5px;
+}
+
+.FormButton:hover {
+  cursor: pointer;
+  box-shadow: grey 2px 2px 10px;
+}
+
+.dataResult {
+  margin-top: 1rem;
+  color: var(--red-color);
+}
+
+.dataItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.dataItem:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .FormContainer {
+    width: 50%;
+    margin-top: 4rem;
+  }
+}
